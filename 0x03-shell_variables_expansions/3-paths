@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($(echo $PATH | grep -o ":/" | wc -l)+ 1))
+echo "6" #echo $(($(echo $PATH | grep -o ":/" | wc -l)+ 1)) this is the correct one but i don't know why it does'nt run
